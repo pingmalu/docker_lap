@@ -35,7 +35,7 @@ deb http://mirrors.aliyun.com/ubuntu/ jammy-security main restricted universe mu
 RUN apt update \
     # && apt install -y openssh-server vim apache2 php \
     # && apt install -y git zip unzip vim net-tools inetutils-ping curl iproute2 python3 python-is-python3 pip openssh-server apache2 php php-mongodb php-redis php-mysql php-pgsql php-curl php-mbstring php-gd \
-    && apt install -y git zip unzip vim net-tools inetutils-ping curl iproute2 openssh-server apache2 php php-mongodb php-redis php-mysql php-pgsql php-curl php-mbstring php-gd \
+    && apt install -y git zip unzip vim net-tools inetutils-ping curl iproute2 openssh-server apache2 php php-mongodb php-redis php-mysql php-pgsql php-curl php-mbstring php-gd php-dom \
     # redis \
     # pgloader \
     # heroku 没有icmp套接字权限
